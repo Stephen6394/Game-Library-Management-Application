@@ -1,0 +1,63 @@
+* {
+	color: white;
+}
+
+html { 
+  background: url('../images/bg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg {
+ 	background: url('../images/bg.png') no-repeat fixed; 
+	height: 100%;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.graybg{
+	background: url('../images/graybg.png') no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+
+.darkerbg{
+	background: url('../images/darkerbg.png') no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+
+.form-container {
+	border: 0px solid blue;
+	padding: 50px 60px;
+	margin-top: 20vh;
+	margin-bottom: 10vh;
+	-webkit-box-shadow: -1px 3px 32px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 3px 32px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 3px 32px 0px rgba(0, 0, 0, 0.75);
+}
+
+footer{
+	background-color: #050D21;
+}
+
+footer h3{
+	margin: 0;
+}
+
+.subSection{
+	
+}
+
+h6{
+	display: inline;
+}
+
+.backdrop{
+	background-color: black;
+	opacity: 0.25;
+}
